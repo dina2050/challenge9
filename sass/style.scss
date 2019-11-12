@@ -1,0 +1,47 @@
+header {
+    background-color:#281402;
+    height: 100vh;
+    nav{
+        text-decoration:none;
+        color: white;
+       
+               a{
+                text-decoration:none;
+                color: white;
+                &:hover {
+                    color: white;
+                }
+               }     
+    }
+    .title {
+        display: flex;
+        height: 100%;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      a{
+          background-color:#a28f61;
+          max-width: 25%;
+          margin:0 auto;
+          color: white;
+      }
+    }
+    .arrow {
+       display: flex;
+       justify-content: end;
+       margin-bottom: 2.5rem;
+       padding-bottom:2rem;
+       color:#c9c4bf;
+    }
+}
+
+main {
+    padding-bottom:5rem;
+    .card{
+        margin: 0.5rem;
+    }
+}
+
+footer{
+    background-color:#0e3e57;
+}
