@@ -1,9 +1,12 @@
 header {
   background-color: #281402;
-  height: 100vh; }
+  height: 100vh;
+  width: 100%; }
   header nav {
     text-decoration: none;
     color: white; }
+    header nav i {
+      color: white; }
     header nav a {
       text-decoration: none;
       color: white; }
@@ -11,7 +14,7 @@ header {
         color: white; }
   header .title {
     display: flex;
-    height: 100%;
+    height: 85%;
     justify-content: center;
     flex-direction: column;
     color: white; }
@@ -22,17 +25,48 @@ header {
       color: white; }
   header .arrow {
     display: flex;
-    justify-content: end;
-    margin-bottom: 2.5rem;
+    justify-content: flex-end;
+    margin: 0 2rem 2.5rem 0;
     padding-bottom: 2rem;
     color: #c9c4bf; }
+    header .arrow a {
+      text-decoration: none;
+      color: #c9c4bf; }
 
 main {
-  padding-bottom: 5rem; }
-  main .card {
-    margin: 0.5rem; }
+  padding-bottom: 5rem;
+  margin: auto; }
+  main .catalog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  main .newCard {
+    margin: 0.25rem;
+    box-shadow: -1px 7px 27px -6px rgba(0, 0, 0, 0.75); }
+    main .newCard .subCard {
+      padding: 1rem; }
 
 footer {
-  background-color: #0e3e57; }
+  background-color: #0e3e57;
+  padding: 3rem; }
+  footer h5 {
+    color: white;
+    text-align: center; }
+  footer ul {
+    color: white; }
+    footer ul li {
+      list-style: none;
+      font-size: 0.8rem; }
+      footer ul li:first-child {
+        font-size: 1.3rem; }
+      footer ul li i {
+        margin-right: 1rem; }
+  footer form input {
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.4rem 0;
+    margin-right: 0.2rem; }
 
 /*# sourceMappingURL=style.css.map */
