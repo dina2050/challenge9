@@ -41,11 +41,30 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; }
-  main .newCard {
+  main .sale {
     margin: 0.25rem;
     box-shadow: -1px 7px 27px -6px rgba(0, 0, 0, 0.75); }
-    main .newCard .subCard {
+    main .sale .subCard {
       padding: 1rem; }
+      main .sale .subCard h3 {
+        color: #ffd030; }
+  main .buy {
+    margin: 0.25rem;
+    box-shadow: -1px 7px 27px -6px rgba(0, 0, 0, 0.75); }
+    main .buy .subCard {
+      padding: 1rem; }
+      main .buy .subCard h3 {
+        color: #ebcc7f; }
+  main .sold {
+    margin: 0.25rem;
+    box-shadow: -1px 7px 27px -6px rgba(0, 0, 0, 0.75);
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) calc(50% - 0.8px), black 50%, rgba(0, 0, 0, 0) calc(50% + 0.8px), rgba(0, 0, 0, 0) 100%); }
+    main .sold .subCard {
+      padding: 1rem; }
+      main .sold .subCard h3 {
+        color: #94979c; }
+    main .sold img {
+      opacity: 0.8; }
 
 footer {
   background-color: #0e3e57;

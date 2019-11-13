@@ -1,0 +1,44 @@
+header {
+    background-color:#281402;
+    height: 100vh;
+    width: 100%;
+    nav{
+        text-decoration:none;
+        color: white;
+            i {
+                color: white;
+            }
+           a{
+                text-decoration:none;
+                color: white;
+                &:hover {
+                    color: white;
+                }
+            }     
+    }
+    .title {
+        display: flex;
+        height: 85%;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+      a{
+          background-color:#a28f61;
+          max-width: 25%;
+          margin:0 auto;
+          color: white;
+        }
+    }
+    .arrow {
+    
+       display: flex;
+       justify-content: flex-end;
+       margin: 0 2rem 2.5rem 0;
+       padding-bottom:2rem;
+       color:#c9c4bf;
+       a {
+        text-decoration: none;
+        color:#c9c4bf;
+       }
+    }
+}

@@ -1,0 +1,35 @@
+main {
+    padding-bottom:5rem;
+    margin: auto;
+    .catalog {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    .sale {
+        @include card(#ffd030)
+    }
+
+    .buy {
+        @include card(#ebcc7f)
+    }
+
+    .sold {
+        @include card(#94979c);
+        img {
+            opacity: 0.8;
+        }
+        
+        background:
+        linear-gradient(to top left,
+            rgba(0,0,0,0) 0%,
+            rgba(0,0,0,0) calc(50% - 0.8px),
+            rgba(0,0,0,1) 50%,
+            rgba(0,0,0,0) calc(50% + 0.8px),
+            rgba(0,0,0,0) 100%),
+
+    }
+}
