@@ -1,6 +1,10 @@
+#index {
+    header {
+        height: 100vh;
+    }
+}
 header {
     background-color:#281402;
-    height: 100vh;
     width: 100%;
     nav{
         text-decoration:none;
@@ -24,7 +28,6 @@ header {
       color: white;
       a{
           background-color:#a28f61;
-          max-width: 25%;
           margin:0 auto;
           color: white;
         }

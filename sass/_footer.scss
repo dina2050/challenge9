@@ -1,3 +1,17 @@
+// #product {
+//     footer {
+//         ul {
+            
+//         }
+//     }
+// }
+$screen-md-min: 768px;
+$screen-sm-min: 576px;
+
+// @mixin sm {
+//     @media (min-width: #{$screen-sm-min}) {
+//                     display: flex;
+// }
 footer{
     background-color:#0e3e57;
     padding: 3rem;
@@ -7,6 +21,7 @@ footer{
     }
     ul {
         color: white;
+        padding: 0;
         li {
             list-style: none;
             font-size: 0.8rem;
@@ -14,10 +29,12 @@ footer{
             &:first-child {
                 font-size: 1.3rem;
             }
+            
             i {
                 margin-right: 1rem;
             }
         }
+        
     }
     form {
         input {
@@ -27,6 +44,22 @@ footer{
             padding: 0.4rem 0;
             margin-right: 0.2rem;
         }
-
+        
+    }
+}
+@media screen and (max-width : 767px) {
+    
+        .footer {
+            .lastfooter{
+                display: flex;
+                justify-content: center;
+                margin-top: 2rem;
+            }
+        }
+}
+@media screen and (max-width : 1023px) and (min-width : 768px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
     }
 }
